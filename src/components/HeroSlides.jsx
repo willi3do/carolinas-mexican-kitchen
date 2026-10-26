@@ -5,14 +5,14 @@ const slides = [
   {
     id: 0,
     title: "Main Hero",
-    bgClass: "/Images/quesaBirria.png",
+    bgClass: "public/Images/quesaBirria.png",
     CTA: "Experience the flavors of traditional Mexican cooking with fresh ingredients and authentic recipes. We are a seed oil free kitchen.",
     button: "Order now",
   },
   {
     id: 1,
     title: "Desert Hero",
-    bgClass: "/Images/desertHero.svg",
+    bgClass: "public/Images/desertHero.svg",
     CTA: "A Sweet Ending Starts Here",
     description:
       "Homemade flan and key lime pie that hit the sweet spot every time.",
@@ -21,8 +21,8 @@ const slides = [
   {
     id: 2,
     title: "Papa's Coffecitos",
-    popsLogo: "/Images/papa'sLogo.png",
-    bgClass: "/Images/Papas-HeroBG.svg",
+    popsLogo: "public/Images/papa'sLogo.png",
+    bgClass: "public/Images/Papas-HeroBG.svg",
     CTA: "A Classic Flavor With A Coffee Twist",
     description: "Homemade paired with bold espresso in every cup.",
     button: "Cafecito Menu",

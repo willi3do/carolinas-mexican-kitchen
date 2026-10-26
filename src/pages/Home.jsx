@@ -7,16 +7,28 @@ import Footer from "../components/Footer.jsx";
 
 export default function Home() {
   const favoritesSection = [
-    { id: 1, name: "Birria Egg Rolls", image: "/Images/birriaEggRolls1.png" },
-    { id: 2, name: "Ceviche", image: "/Images/ceviche.png" },
-    { id: 3, name: "key Lime Pie", image: "/Images/keyLimePie.png" },
+    {
+      id: 1,
+      name: "Birria Egg Rolls",
+      image: "public/Images/birriaEggRolls1.png",
+    },
+    { id: 2, name: "Ceviche", image: "public/Images/ceviche.png" },
+    { id: 3, name: "key Lime Pie", image: "public/Images/keyLimePie.png" },
     {
       id: 4,
       name: "Quesa Birria Tacos",
-      image: "/Images/quesaBirriaTacos.png",
+      image: "public/Images/quesaBirriaTacos.png",
     },
-    { id: 5, name: "Cremita De Coco", image: "/Images/cremitaDeCoco.png" },
-    { id: 6, name: "Carne Asada Plate", image: "/Images/asadaPlate1.png" },
+    {
+      id: 5,
+      name: "Cremita De Coco",
+      image: "public/Images/cremitaDeCoco.png",
+    },
+    {
+      id: 6,
+      name: "Carne Asada Plate",
+      image: "public/Images/asadaPlate1.png",
+    },
   ];
   return (
     <div className=" flex flex-col w-screen h-auto justify-center items-center overflow-x-hidden bg-primary">
