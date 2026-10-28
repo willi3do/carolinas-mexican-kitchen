@@ -13,7 +13,7 @@ export default function Nav() {
         <div className="shrink-0">
           <img
             className="rounded-1xl object-cover h-20 md:h-16 w-auto object-center"
-            src={`${import.meta.env.BASE_URL}/Images/logoDoll.png`}
+            src={`${import.meta.env.BASE_URL}Images/logoDoll.png`}
             alt="Carolina's Mex Kitchen hero image"
           />
         </div>
