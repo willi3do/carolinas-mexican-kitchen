@@ -10,24 +10,32 @@ export default function Home() {
     {
       id: 1,
       name: "Birria Egg Rolls",
-      image: "public/Images/birriaEggRolls1.png",
+      image: `${import.meta.env.BASE_URL}/Images/birriaEggRolls1.png`,
     },
-    { id: 2, name: "Ceviche", image: "public/Images/ceviche.png" },
-    { id: 3, name: "key Lime Pie", image: "public/Images/keyLimePie.png" },
+    {
+      id: 2,
+      name: "Ceviche",
+      image: `${import.meta.env.BASE_URL}/Images/ceviche.png`,
+    },
+    {
+      id: 3,
+      name: "key Lime Pie",
+      image: `${import.meta.env.BASE_URL}/Images/keyLimePie.png`,
+    },
     {
       id: 4,
       name: "Quesa Birria Tacos",
-      image: "public/Images/quesaBirriaTacos.png",
+      image: `${import.meta.env.BASE_URL}/Images/quesaBirriaTacos.png`,
     },
     {
       id: 5,
       name: "Cremita De Coco",
-      image: "public/Images/cremitaDeCoco.png",
+      image: `${import.meta.env.BASE_URL}/Images/cremitaDeCoco.png`,
     },
     {
       id: 6,
       name: "Carne Asada Plate",
-      image: "public/Images/asadaPlate1.png",
+      image: `${import.meta.env.BASE_URL}/Images/asadaPlate1.png`,
     },
   ];
   return (

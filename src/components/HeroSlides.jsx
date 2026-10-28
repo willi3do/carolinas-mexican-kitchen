@@ -5,14 +5,14 @@ const slides = [
   {
     id: 0,
     title: "Main Hero",
-    bgClass: "public/Images/quesaBirria.png",
+    bgClass: `${import.meta.env.BASE_URL}/Images/quesaBirria.png`,
     CTA: "Experience the flavors of traditional Mexican cooking with fresh ingredients and authentic recipes. We are a seed oil free kitchen.",
     button: "Order now",
   },
   {
     id: 1,
     title: "Desert Hero",
-    bgClass: "public/Images/desertHero.svg",
+    bgClass: `${import.meta.env.BASE_URL}/Images/desertHero.svg`,
     CTA: "A Sweet Ending Starts Here",
     description:
       "Homemade flan and key lime pie that hit the sweet spot every time.",
@@ -21,8 +21,8 @@ const slides = [
   {
     id: 2,
     title: "Papa's Coffecitos",
-    popsLogo: "public/Images/papa'sLogo.png",
-    bgClass: "public/Images/Papas-HeroBG.svg",
+    popsLogo: `${import.meta.env.BASE_URL}/Images/papa'sLogo.png`,
+    bgClass: `${import.meta.env.BASE_URL}Images/Papas-HeroBG.svg`,
     CTA: "A Classic Flavor With A Coffee Twist",
     description: "Homemade paired with bold espresso in every cup.",
     button: "Cafecito Menu",
@@ -94,14 +94,6 @@ export default function HeroSlider() {
               className="w-screen h-20 flex justify-center items-center font-agbalumo text-4xl md:text-5xl  text-white [-webkit-text-stroke:2px_black] "
             >
               {slides[current].title}
-
-              {/* {slides[current].popsLogo && (
-                <img
-                  src={slides[current].popsLogo}
-                  alt="Papa's Coffecitos Logo"
-                  className="w-20 h-40 object-cover pt-5 "
-                />
-              )} */}
             </h1>
             {/* Call to Action */}
             <div id="CTA" className=" w-full h-auto flex-row ">
