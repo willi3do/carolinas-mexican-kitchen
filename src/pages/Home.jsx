@@ -62,15 +62,6 @@ export default function Home() {
 
       <HoursAndLocation />
 
-      {/* <section id="aboutRestaurant">
-        From our familia to yours. My family immigrated from Michoacán, Mexico,
-        and no matter how much or how little we had, there was always a
-        homecooked meal made with love. Carolina’s was born from that same
-        spirit — authentic, from-scratch cooking passed down from the women who
-        raised me. Every dish is made with the freshest ingredients, the highest
-        quality meats, and zero seed oils. Siempre hecho con amor. 🤍
-      </section> */}
-
       <section id="footer" className="bg-accent-red h-auto w-full">
         <footer className="text-center  text-black">
           <p className="text-lg">
