@@ -10,32 +10,32 @@ export default function Home() {
     {
       id: 1,
       name: "Birria Egg Rolls",
-      image: `${import.meta.env.BASE_URL}/Images/birriaEggRolls1.png`,
+      image: `${import.meta.env.BASE_URL}Images/birriaEggRolls1.png`,
     },
     {
       id: 2,
       name: "Ceviche",
-      image: `${import.meta.env.BASE_URL}/Images/ceviche.png`,
+      image: `${import.meta.env.BASE_URL}Images/ceviche.png`,
     },
     {
       id: 3,
       name: "key Lime Pie",
-      image: `${import.meta.env.BASE_URL}/Images/keyLimePie.png`,
+      image: `${import.meta.env.BASE_URL}Images/keyLimePie.png`,
     },
     {
       id: 4,
       name: "Quesa Birria Tacos",
-      image: `${import.meta.env.BASE_URL}/Images/quesaBirriaTacos.png`,
+      image: `${import.meta.env.BASE_URL}Images/quesaBirriaTacos.png`,
     },
     {
       id: 5,
       name: "Cremita De Coco",
-      image: `${import.meta.env.BASE_URL}/Images/cremitaDeCoco.png`,
+      image: `${import.meta.env.BASE_URL}Images/cremitaDeCoco.png`,
     },
     {
       id: 6,
       name: "Carne Asada Plate",
-      image: `${import.meta.env.BASE_URL}/Images/asadaPlate1.png`,
+      image: `${import.meta.env.BASE_URL}Images/asadaPlate1.png`,
     },
   ];
   return (
@@ -61,7 +61,7 @@ export default function Home() {
       </section>
 
       <HoursAndLocation />
-      <Footer />
+      {/* <Footer /> */}
 
       {/* <section id="aboutRestaurant">
         From our familia to yours. My family immigrated from Michoacán, Mexico,
@@ -72,7 +72,18 @@ export default function Home() {
         quality meats, and zero seed oils. Siempre hecho con amor. 🤍
       </section> */}
 
-      {/* <section id="footer" className="bg-accent-red h-100 w-full"></section> */}
+      <section id="footer" className="bg-accent-red h-auto w-full">
+        <footer className="text-center  text-black">
+          <p className="text-lg">
+            © {new Date().getFullYear()} Carolina's Mexican Kitchen
+          </p>
+          <img
+            src={`${import.meta.env.BASE_URL}Images/logoDoll.png`}
+            alt="logo doll"
+            className="h-20 w-auto mx-auto mb-4"
+          />
+        </footer>
+      </section>
     </div>
   );
 }
