@@ -61,7 +61,6 @@ export default function Home() {
       </section>
 
       <HoursAndLocation />
-      {/* <Footer /> */}
 
       {/* <section id="aboutRestaurant">
         From our familia to yours. My family immigrated from Michoacán, Mexico,

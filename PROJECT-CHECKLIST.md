@@ -7,28 +7,34 @@
 ## 1. Finish the pages
 
 ### Home
-- [ ] Fix overlapping text, images, or clipped sections.
+
+- [ ...] Fix overlapping text, images, or clipped sections.
 - [ ] Test the hero slider and navigation menu.
 - [ ] Check hours, location, phone, and main calls to action.
 
 ### Menu
+
 - [ ] Confirm menu names, prices, descriptions, and photos.
 - [ ] Check layout on phone and desktop.
 - [ ] Test any order buttons or links.
 
 ### Reservations
+
 - [ ] Add and test the approved reservation or waitlist link.
 - [ ] Make the next step clear if the restaurant uses an external service.
 
 ### Catering
+
 - [ ] Add approved catering information.
 - [ ] Provide a working way to contact the restaurant about catering.
 
 ### Careers
+
 - [ ] Add approved hiring information.
 - [ ] Provide a working application or contact method.
 
 ### FAQ
+
 - [ ] Add answers approved by the owner.
 - [ ] Check spelling and make answers easy to scan.
 

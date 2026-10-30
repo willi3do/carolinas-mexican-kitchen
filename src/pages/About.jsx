@@ -17,12 +17,11 @@ export default function About() {
       happy to be one of the few restaurants in Las Vegas that are Seed Oil
       Free! We proudly use fresh ingredients, the highest quality meats, and
       just like the food I ate growing up, everything is made from scratch.
-      Siempre hecho con amor, Carolina"
+      Siempre hecho con amor, Carolina 🤍"
     </p>
   );
   return (
-    <div className="about-section w-100 ">
-      <h2>About Us</h2>
+    <div className="about-section w-screen h-full p-10  ">
       <div>{story}</div>
     </div>
   );
